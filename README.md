@@ -27,7 +27,7 @@ The project followed a prescriptive analytics approach, moving from data explora
 -   **Imbalanced-learn (Imb-learn)**: To handle class imbalance during early modeling phases with `SMOTE`.
 
 ## 📈 Results
--   **Positive Revenue Impact**: The model generated a potential revenue increase of **~20%** by providing more accurate predictions than a static pricing model.
+-   **Positive Revenue Impact**: The model generated a potential revenue increase of **~10%** by providing more accurate predictions than a static pricing model.
 -   **Actionable Insights**: The model's predictions can be used to set an optimal price for any new or upcoming class by simulating a range of price points to find the one that maximizes predicted revenue.
 -   **Foundational Model**: A strong baseline model has been established for future improvements with more data and advanced techniques.
 
