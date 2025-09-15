@@ -12,7 +12,7 @@ The project followed a prescriptive analytics approach, moving from data explora
 1.  **Data Synthesis and Engineering**: Combined five separate datasets (`ClassData`, `SalesData`, `CartData`, `UserData`, and `AttendanceData`) to create a unified view of class demand. Key features were engineered, including:
     * `cart_adds` to measure early interest.
     * `day_of_week` and `time_of_day` to capture scheduling patterns.
-    * `user_age` and `customer_segment` to add a demographic dimension.
+    * `user_age` and `segments` to add a demographic dimension.
 
 2.  **Regression Modeling**: Built and trained a **Random Forest Regressor** to predict `total_enrollments` based on class features, including `base_cost`. This approach allowed the model to learn the relationship between price and demand, a core concept of price elasticity.
 
@@ -37,7 +37,7 @@ The project followed a prescriptive analytics approach, moving from data explora
 -   **The Importance of Backtesting**: Simulating the model's performance on historical data (backtesting) is a powerful way to demonstrate its business value.
 
 ## 🚀 Next Steps
--   **Expand the Dataset**: Integrate additional data sources, such as marketing spend, local events, or public holidays, to improve model accuracy.
+-   **Expand the Dataset**: Integrate additional data sources, such as marketing spend, competitor pricing, local events, or public holidays, to improve model accuracy.
 -   **Advanced Customer Segmentation**: Build separate models for different customer groups (e.g., new vs. returning) to offer personalized prices.
 -   **Profit Optimization**: Instead of just maximizing revenue, adjust the simulation to find the price that maximizes profit (revenue minus cost).
 -   **Deploy the Model**: Build a simple web interface (e.g., using Streamlit or Flask) that allows the studio to input a new class's features and receive an immediate price recommendation.
